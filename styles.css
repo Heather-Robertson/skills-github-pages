@@ -1,9 +1,27 @@
 body {
   background-color: LightGray;
 }
+
 h1 {
   color: DodgerBlue;
 }
+
 p {
   color: MidnightBlue;
 }
+
+nav {
+  .active {
+    background-color: #DodgerBlue;
+  }
+  .hover {
+    background-color: #LightSkyBlue;
+  }
+
+nav a {
+  border: 1 px Solid Blue;
+  border-radius: 5 px;
+  color: MidnightBlue;
+  hover: DarkBlue;
+  visited: MidnightBlue
+  }
